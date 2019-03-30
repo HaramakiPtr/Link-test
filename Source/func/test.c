@@ -8,15 +8,15 @@
 */
 int returnRnd(int max)
 {
-	srand((unsigned)time(0UL));
-	return rand() % 10;
+srand((unsigned)time(0UL));
+return rand() % 10;
 }
 
 char* returnMsg(char* str)
 {
-	char hello[] = " Hello!";
-	char* offset = malloc((strlen(str)+strlen(hello))+1);
-	strcpy(offset,str);
-	strcat(offset,hello);
-	return offset;
+char hello[] = " Hello!";
+char* offset = malloc((strlen(str)+strlen(hello))+1);
+strcpy(offset,str);
+strcat(offset,hello);
+return offset;
 }
