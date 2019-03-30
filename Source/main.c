@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "test.h"
 
-int main(void)
+int main(voi)
 {
 	printf("Please enter your name:");
 	char String[20];
